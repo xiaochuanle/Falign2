@@ -1,0 +1,19 @@
+name: tensorflow_cdpm
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+- python=2.7
+- pip
+- pip:
+  - protobuf==3.2.0
+  - tensorflow==1.2.1
+  - biopython==1.74
+  - tflearn==0.3.2
+  - tqdm==4.19.4
+  - scipy==0.18.1
+  - h5py==2.7.1
+  - numpy==1.13.1
+  - scikit-learn==0.20.3
+  - -i https://pypi.tuna.tsinghua.edu.cn/simple/

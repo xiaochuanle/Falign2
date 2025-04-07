@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "__split_buffer": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}
